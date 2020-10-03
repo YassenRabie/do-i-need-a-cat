@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactCSSTransitionGroup from 'react-transition-group'
 
 const Content = ({ page }) => {
     return (

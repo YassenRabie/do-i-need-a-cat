@@ -38,25 +38,25 @@ function App() {
         document.documentElement.style.setProperty('--vh', `${vh}px`)
     }, [])
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        gsap.from('.wraper .container .image-container', .75, {
-            y: 7,
-            ease: 'power4.out',
-            opacity: 0
-        })
-        gsap.from('.wraper .container h3', .75, {
-            y: 7,
-            ease: 'power4.out',
-            opacity: 0
-        })
-        gsap.from('.wraper .container .info p', .75, {
-            y: 7,
-            ease: 'power4.out',
-            opacity: 0
-        })
+    //     gsap.from('.wraper .container .image-container', .75, {
+    //         y: 7,
+    //         ease: 'power4.out',
+    //         opacity: 0
+    //     })
+    //     gsap.from('.wraper .container h3', .75, {
+    //         y: 7,
+    //         ease: 'power4.out',
+    //         opacity: 0
+    //     })
+    //     gsap.from('.wraper .container .info p', .75, {
+    //         y: 7,
+    //         ease: 'power4.out',
+    //         opacity: 0
+    //     })
 
-    }, [pageId])
+    // }, [pageId])
 
     return (
         <div className="App">
